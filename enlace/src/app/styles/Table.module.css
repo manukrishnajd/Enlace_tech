@@ -1,0 +1,30 @@
+
+.header{
+    border-radius: 20px !important;
+}
+.table{
+    width: 100%;
+    margin-top: 5vh;
+}
+.drop{
+ 
+}
+.head{
+    background-color: #EAE4FF !important;
+    
+}/* Table.module.css */
+
+/* Add styles for the dropdown container */
+.dropdownContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Add styles for the dropdown menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+  

@@ -1,0 +1,106 @@
+.sidebar {
+    width: 300vh;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #372470;
+    transition: width 0.3s;
+    box-shadow: -1px 2px 8px 0px;
+  }
+  .sidebar li {
+   text-decoration: none;
+   
+  }
+  .sidebar_li{
+    gap: 40px;
+  }
+
+  .togArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  .collapsed {
+    width: 0px;
+
+  }
+  
+  .toggleButton {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    float: inline-end;
+    
+  }
+  
+.item_list_active{
+  background-color: #EAE4FF;
+}
+
+  .sidebarLinks {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 13rem;
+    text-decoration: none;
+  }
+  
+  .sidebarLinks li {
+    padding: 10px;
+    /* border-bottom: 1px solid #555; */
+    list-style: none;
+    gap: 30px;
+    font-size: 17px;
+  }
+  .drop_item{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+  }
+  .item_drop{
+    margin-left: 20rem;
+  }
+  /* Sidebar.module.css */
+
+.sidebar {
+  /* ... other styles ... */
+}
+
+.collapsed {
+  width: 60px; /* Adjust the collapsed width as needed */
+}
+
+.sidebarLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar_icon {
+  /* ... your existing icon styles ... */
+}
+
+.togArrow {
+  /* ... your existing arrow styles ... */
+}
+
+.dropdown {
+  /* ... your existing dropdown styles ... */
+}
+
+/* Hide the text content of collapsed dropdown items */
+.collapsed .sidebarLinks .dropdown li {
+  font-size: 0; /* Set font size to 0 to hide text */
+}
+
+/* Restore font size for expanded dropdown items */
+.collapsed .sidebarLinks .dropdown li.collapsed-open {
+  font-size: 16px; /* Adjust font size as needed */
+}
+.noUnderline {
+  text-decoration: none;
+  color: white;
+}
