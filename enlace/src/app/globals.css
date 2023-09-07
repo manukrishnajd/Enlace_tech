@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
-*{
-  background-color: white;
-}
+
 :root {
   --color-bg: #fff;
   --color-border: #e5e7eb;

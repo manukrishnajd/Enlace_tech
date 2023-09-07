@@ -28,3 +28,41 @@
     z-index: 1000;
   }
   
+
+  /* Default styles for .table and .header */
+.header {
+    border-radius: 20px !important;
+}
+.table {
+    width: 100%;
+    margin-top: 5vh;
+}
+.head {
+    background-color: #EAE4FF !important;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .table {
+        /* Adjust styles for smaller screens */
+        width: 80%;
+        margin-top: 3vh;
+    }
+    .header {
+        /* Adjust styles for smaller screens */
+        border-radius: 10px !important;
+    }
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .table {
+        /* Further adjust styles for even smaller screens */
+        width: 90%;
+        margin-top: 2vh;
+    }
+    .header {
+        /* Further adjust styles for even smaller screens */
+        border-radius: 5px !important;
+    }
+}
