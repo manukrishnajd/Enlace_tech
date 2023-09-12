@@ -1,0 +1,40 @@
+.heading{
+   background-color: #EAE4FF;
+   padding: 10px;
+   border-radius: 10px;
+}
+th{
+    padding: 10px;
+    width: 100em;
+    
+}
+td {
+    padding: 10px;
+    
+}
+tr{
+  text-align: center;
+}
+tr:nth-child(even){
+  background-color: #EAE4FF;
+
+}
+.head{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #372470;
+}
+
+
+  .center_page{
+    margin: auto !important;
+  }
+.tableHead{
+  background-color: #372470;
+  color: white;
+  border-radius: 10px;
+}
+.req_table{
+  padding: 20px;
+}
