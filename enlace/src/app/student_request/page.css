@@ -37,4 +37,10 @@ tr:nth-child(even){
 }
 .req_table{
   padding: 20px;
+  
+}
+.border_table{
+  border: 1.3px solid #372470;
+  
+
 }

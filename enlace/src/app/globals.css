@@ -145,8 +145,10 @@ thead{
   background-color: #372470;
   border-radius: 20px;
   color: white;
-  width: 100px;
+  width: 200px;
   margin-left: 20px;
+  height: 40px;
+  font-weight: bolder;
  
 }
 .SearchBg{
@@ -228,7 +230,9 @@ tr:nth-child(even){
 
 }
 .req_table{
- padding: 20px;
+padding: 0px !important;
+ font-size: 16px;
+
 }
 .drop{
   text-decoration: none;
@@ -249,13 +253,66 @@ a{
 }
 .topbar{
   background-color: #372470;
-  color: white;
-  font-size: small;
+    color: white;
+    font-size: small;
+   justify-content: end;
+    position: sticky;
+    padding: 10px;
+    display: flex;
+   
+  
+ 
 
 }
 .topbar_item{
   font-size: 19px;
-  color: white;
-  padding: 13px;
+    color: white;
+    /* padding: 13px; */
+   
+    margin-top: 15px;
+    
   
+}
+.toggle_up{
+  margin-top: -67px;
+    position: absolute;
+    color: white;
+}
+.dropdown.odd-row {
+  background-color: white; /* Background color for odd rows */
+}
+.dropdown.even-row {
+  background-color: #EAE4FF; /* Background color for even rows */
+}
+.logout{
+  background-color: #EAE4FF;
+    padding-left: 18px;
+    border: none;
+    align-self: flex-start;
+    border-radius: 20px;
+  
+    margin-top: 12px;
+    height: fit-content;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+  
+}
+.logout:hover{
+  background-color: white;
+
+}
+.top_head{
+  margin-top: 14px;
+  margin-right: 53rem;
+  font-size: 21px;
+}
+.admin_image{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.gaps{
+  gap: 20px;
 }

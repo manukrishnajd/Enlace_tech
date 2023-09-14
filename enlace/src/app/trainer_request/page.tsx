@@ -6,6 +6,7 @@ import { BsFillEyeFill } from 'react-icons/bs';
 import Tables from '../components/Table';
 import Dropdowns from '../components/Dropdown';
 import styles from '../styles/Table.module.css'
+import Topbar from '../components/Topbar';
 
 export default function Page() {
   const itemsPerPage = 10; // Number of rows to display per page
@@ -63,7 +64,8 @@ export default function Page() {
 
   return (
     <>
-      <div className="d-flex">
+          <Topbar/>
+      <div className="d-flex  ">
         <Sidebar />
         <div className='d-flex flex-column'>
           <h4 className='head'>Trainer request</h4>

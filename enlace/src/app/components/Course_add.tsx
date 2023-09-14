@@ -30,7 +30,7 @@ export default function Course_add() {
         <Form.Control type="text" placeholder="Enter Details" />
       </Form.Group>
       <div className='w-100 text-center'>
-      <input type="submit" value='Add' className='bg border-0 w-50 m-auto ' />
+      <input type="submit" value='Add' className='bg border-0  m-auto  ' />
       </div>
     </Form>
     </>

@@ -10,6 +10,7 @@ import styles from '../styles/Table.module.css'
 import {AiFillEye,AiFillEdit,AiFillDelete,AiFillPlusCircle} from 'react-icons/ai'
 import Link from 'next/link';
 import CourseAddPopup from '../components/CourseAddPopup';
+import Topbar from '../components/Topbar';
 
 
 
@@ -70,6 +71,7 @@ export default function Page() {
 
   return (
     <>
+    <Topbar/>
       <div className="d-flex">
         <Sidebar />
         <div className='d-flex flex-column'>

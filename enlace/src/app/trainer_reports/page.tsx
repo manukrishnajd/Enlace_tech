@@ -37,10 +37,11 @@ export default function Page() {
 
   return (
     <>
+    <Topbar/>
       <div className="d-flex">
         <Sidebar />
         <div className='d-flex flex-column'>
-      <Topbar/>
+      
           <h4 className='head'>Trainer report</h4>
           
  <form className=' input-group w-50 align-self-end p-3 ju  '>

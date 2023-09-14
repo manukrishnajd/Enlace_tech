@@ -6,6 +6,7 @@ import { BsFillEyeFill } from 'react-icons/bs';
 import Tables from '../components/Table';
 import Dropdowns from '../components/Dropdown';
 import styles from '../styles/Table.module.css'
+import Topbar from '../components/Topbar';
 
 export default function Page() {
   const itemsPerPage = 10; // Number of rows to display per page
@@ -17,13 +18,15 @@ export default function Page() {
       Course: "xyz",
       "Payment status": "success",
       Date: "24/03/2023",
-      Status: <Dropdowns />,
+      Status: <Dropdowns className={tableRowClass(0)} />,
       Details: <BsFillEyeFill size={24} />,
     },
     
     // Add more data items as needed
   ];
-
+  function tableRowClass(index:any) {
+    return index % 2 === 0 ? 'even-row' : 'odd-row';
+  }
   // Calculate the start and end indices for the current page
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -36,6 +39,7 @@ export default function Page() {
 
   return (
     <>
+    <Topbar/>
       <div className="d-flex">
         <Sidebar />
         <div className='d-flex flex-column'>

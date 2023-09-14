@@ -1,5 +1,5 @@
 .sidebar {
-    width: 300vh;
+    width: fit-content;
     height: 100vh;
     background-color: #ffffff;
     color: #372470;
@@ -9,8 +9,11 @@
   }
   .sidebar li {
    text-decoration: none;
+   width: 100%;
+
    
   }
+  
   .sidebar_li{
     gap: 40px;
   }
@@ -53,7 +56,7 @@
     padding: 10px;
     /* border-bottom: 1px solid #555; */
     list-style: none;
-    gap: 30px;
+    gap: 40px;
     font-size: 17px;
   }
   .drop_item{
